@@ -194,13 +194,18 @@ a:hover {
 } */
 
 
-/* ------ MEDIA QUERY ------- */
-
-
 /* ------ HASTA 576PX ------- */
 
 @media (min-width: 576px) {
     .carrusel-item {
-        max-height: 500px;
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .alto-btn {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
